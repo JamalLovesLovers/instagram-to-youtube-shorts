@@ -15,7 +15,7 @@ def get_authenticated_service():
         "client_id": CLIENT_ID,
         "client_secret": CLIENT_SECRET,
         "refresh_token": REFRESH_TOKEN,
-        "token_uri": "https://oauth2.googleapis.com/token"
+        "token_uri": ""
     })
     return googleapiclient.discovery.build("youtube", "v3", credentials=credentials)
 
